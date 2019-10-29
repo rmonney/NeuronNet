@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -g -W -Wall -Wextra
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/include -I/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src 
+CXX_INCLUDES = -I/usr/local/include -I/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/include -I/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src 
 

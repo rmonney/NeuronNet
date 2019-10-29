@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master
+CMAKE_SOURCE_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build
+CMAKE_BINARY_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build
 
 # Utility rule file for doc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
-	/usr/bin/doxygen /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
+	/usr/bin/doxygen /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/Doxyfile
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doc.dir/depend
 

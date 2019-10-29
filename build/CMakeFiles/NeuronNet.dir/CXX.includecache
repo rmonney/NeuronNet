@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/globals.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/globals.h
 algorithm
 -
 stdexcept
@@ -30,39 +30,39 @@ string
 cmath
 -
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/main.cpp
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/main.cpp
 simulation.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/simulation.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/simulation.h
 random.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.h
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/network.cpp
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/network.cpp
 network.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/network.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/network.h
 random.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.h
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/network.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/network.h
 globals.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/globals.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/globals.h
 neuron.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/neuron.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/neuron.h
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/neuron.cpp
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/neuron.cpp
 globals.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/globals.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/globals.h
 neuron.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/neuron.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/neuron.h
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/neuron.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/neuron.h
 globals.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/globals.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/globals.h
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.cpp
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.cpp
 random.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.h
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.h
 random
 -
 vector
@@ -70,17 +70,17 @@ vector
 algorithm
 -
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/simulation.cpp
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/simulation.cpp
 globals.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/globals.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/globals.h
 random.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.h
 simulation.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/simulation.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/simulation.h
 
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/simulation.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/simulation.h
 network.h
-/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/network.h
+/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/network.h
 tclap/CmdLine.h
 -
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master
+CMAKE_SOURCE_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build
+CMAKE_BINARY_DIR = /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/NeuronNet.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/NeuronNet.dir/flags.make
 
 CMakeFiles/NeuronNet.dir/src/random.cpp.o: CMakeFiles/NeuronNet.dir/flags.make
 CMakeFiles/NeuronNet.dir/src/random.cpp.o: ../src/random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NeuronNet.dir/src/random.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/random.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NeuronNet.dir/src/random.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/random.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.cpp
 
 CMakeFiles/NeuronNet.dir/src/random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuronNet.dir/src/random.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.cpp > CMakeFiles/NeuronNet.dir/src/random.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.cpp > CMakeFiles/NeuronNet.dir/src/random.cpp.i
 
 CMakeFiles/NeuronNet.dir/src/random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuronNet.dir/src/random.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/random.cpp -o CMakeFiles/NeuronNet.dir/src/random.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/random.cpp -o CMakeFiles/NeuronNet.dir/src/random.cpp.s
 
 CMakeFiles/NeuronNet.dir/src/random.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/NeuronNet.dir/src/random.cpp.o.provides.build: CMakeFiles/NeuronNet.d
 
 CMakeFiles/NeuronNet.dir/src/main.cpp.o: CMakeFiles/NeuronNet.dir/flags.make
 CMakeFiles/NeuronNet.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuronNet.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/main.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuronNet.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/main.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/main.cpp
 
 CMakeFiles/NeuronNet.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuronNet.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/main.cpp > CMakeFiles/NeuronNet.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/main.cpp > CMakeFiles/NeuronNet.dir/src/main.cpp.i
 
 CMakeFiles/NeuronNet.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuronNet.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/main.cpp -o CMakeFiles/NeuronNet.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/main.cpp -o CMakeFiles/NeuronNet.dir/src/main.cpp.s
 
 CMakeFiles/NeuronNet.dir/src/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/NeuronNet.dir/src/main.cpp.o.provides.build: CMakeFiles/NeuronNet.dir
 
 CMakeFiles/NeuronNet.dir/src/network.cpp.o: CMakeFiles/NeuronNet.dir/flags.make
 CMakeFiles/NeuronNet.dir/src/network.cpp.o: ../src/network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuronNet.dir/src/network.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/network.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuronNet.dir/src/network.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/network.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/network.cpp
 
 CMakeFiles/NeuronNet.dir/src/network.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuronNet.dir/src/network.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/network.cpp > CMakeFiles/NeuronNet.dir/src/network.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/network.cpp > CMakeFiles/NeuronNet.dir/src/network.cpp.i
 
 CMakeFiles/NeuronNet.dir/src/network.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuronNet.dir/src/network.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/network.cpp -o CMakeFiles/NeuronNet.dir/src/network.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/network.cpp -o CMakeFiles/NeuronNet.dir/src/network.cpp.s
 
 CMakeFiles/NeuronNet.dir/src/network.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/NeuronNet.dir/src/network.cpp.o.provides.build: CMakeFiles/NeuronNet.
 
 CMakeFiles/NeuronNet.dir/src/neuron.cpp.o: CMakeFiles/NeuronNet.dir/flags.make
 CMakeFiles/NeuronNet.dir/src/neuron.cpp.o: ../src/neuron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuronNet.dir/src/neuron.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/neuron.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/neuron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuronNet.dir/src/neuron.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/neuron.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/neuron.cpp
 
 CMakeFiles/NeuronNet.dir/src/neuron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuronNet.dir/src/neuron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/neuron.cpp > CMakeFiles/NeuronNet.dir/src/neuron.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/neuron.cpp > CMakeFiles/NeuronNet.dir/src/neuron.cpp.i
 
 CMakeFiles/NeuronNet.dir/src/neuron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuronNet.dir/src/neuron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/neuron.cpp -o CMakeFiles/NeuronNet.dir/src/neuron.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/neuron.cpp -o CMakeFiles/NeuronNet.dir/src/neuron.cpp.s
 
 CMakeFiles/NeuronNet.dir/src/neuron.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/NeuronNet.dir/src/neuron.cpp.o.provides.build: CMakeFiles/NeuronNet.d
 
 CMakeFiles/NeuronNet.dir/src/simulation.cpp.o: CMakeFiles/NeuronNet.dir/flags.make
 CMakeFiles/NeuronNet.dir/src/simulation.cpp.o: ../src/simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeuronNet.dir/src/simulation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/simulation.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeuronNet.dir/src/simulation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeuronNet.dir/src/simulation.cpp.o -c /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/simulation.cpp
 
 CMakeFiles/NeuronNet.dir/src/simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeuronNet.dir/src/simulation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/simulation.cpp > CMakeFiles/NeuronNet.dir/src/simulation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/simulation.cpp > CMakeFiles/NeuronNet.dir/src/simulation.cpp.i
 
 CMakeFiles/NeuronNet.dir/src/simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeuronNet.dir/src/simulation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/src/simulation.cpp -o CMakeFiles/NeuronNet.dir/src/simulation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/src/simulation.cpp -o CMakeFiles/NeuronNet.dir/src/simulation.cpp.s
 
 CMakeFiles/NeuronNet.dir/src/simulation.cpp.o.requires:
 
@@ -195,7 +195,7 @@ NeuronNet: CMakeFiles/NeuronNet.dir/src/neuron.cpp.o
 NeuronNet: CMakeFiles/NeuronNet.dir/src/simulation.cpp.o
 NeuronNet: CMakeFiles/NeuronNet.dir/build.make
 NeuronNet: CMakeFiles/NeuronNet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable NeuronNet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable NeuronNet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeuronNet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/NeuronNet.dir/clean:
 .PHONY : CMakeFiles/NeuronNet.dir/clean
 
 CMakeFiles/NeuronNet.dir/depend:
-	cd /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet-master/build/CMakeFiles/NeuronNet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build /home/rmonney/myfiles/Programmation/cpp/BA3/NeuronNet/build/CMakeFiles/NeuronNet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NeuronNet.dir/depend
 
